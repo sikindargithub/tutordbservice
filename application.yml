@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tutordbservice
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  database-platform: org.hibernate.dialect.MySQL5DIALECT
+  show-sql: true
+
+message: Hello
